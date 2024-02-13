@@ -27,8 +27,8 @@ First, login to remote servers.
 Create a new user named `hardmini` with a home directory and bash as the default shell:
 
 ```bash
-useradd -m -s /bin/bash hardmini
-usermod -aG sudo hardmini
+sudo useradd -m -s /bin/bash hardmini
+sudo usermod -aG sudo hardmini
 ```
 
 ### SSH Key Pair Generation
